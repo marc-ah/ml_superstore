@@ -26,25 +26,16 @@ Verwendete Module:
 
 # Übersicht der Dateien und Ordner
 
-Root
--- data
-
---- superstore.db         SQLite-Datenbank: Bereinigte und anonymisierte Daten 
-
+<pre><code>
+- data
+-- superstore.db            SQLite-Datenbank: Bereinigte und anonymisierte Daten 
 -- input
-
---- global-superstore.xls Rohaten/Datenquelle
-
--- output                 Ordner für Ausgaben, z.B. Profile
-
+--- global-superstore.xls   Rohaten/Datenquelle
+-- output                   Ordner für Ausgaben, z.B. Profile
 -- scripts          
-
---- 01_import.ipynb       Notebook für Import der Exceldatei, Bereinigung und Anonymisierung
-
---- 02_inspect.ipynb      Deskritive Analyse des Datensatzes, Vorbereitung der Daten
-
---- 03_feature_eng.ipynb  Feature Engineerung und Modellerzeugung, Testing
-
--- temp                   Temporäres Verzeichnis für Übertragung von Notebook zu Notebook mittels Pickle
-
--- README.md             Diese Datei
+--- 01_import.ipynb         Notebook für Import der Exceldatei, Bereinigung und Anonymisierung
+--- 02_inspect.ipynb        Deskritive Analyse des Datensatzes, Vorbereitung der Daten
+--- 03_feature_eng.ipynb    Feature Engineerung und Modellerzeugung, Testing
+-- temp                     Temporäres Verzeichnis für Übertragung von Notebook zu Notebook mittels Pickle
+-- README.md                Diese Datei
+</code></pre>
